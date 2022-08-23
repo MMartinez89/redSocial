@@ -1,0 +1,29 @@
+{
+  "name": "red-social",
+  "version": "1.0.0",
+  "description": "Red Social",
+  "main": "index.js",
+  "scripts": {
+    "tsc": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "dev": "nodemon ./api/index.js",
+    "mysql": "nodemon ./mysql/index.js",
+    "post": "nodemon ./post/index.js"
+  },
+  "author": "Manuel Martinez",
+  "license": "ISC",
+  "dependencies": {
+    "bcrypt": "^5.0.1",
+    "body-parser": "^1.20.0",
+    "express": "^4.18.1",
+    "jsonwebtoken": "^8.5.1",
+    "mysql": "^2.18.1",
+    "nanoid": "^3.3.4",
+    "node-fetch": "^2.6.7",
+    "swagger-ui-express": "^4.4.0"
+  },
+  "devDependencies": {
+    "@types/swagger-ui-express": "^4.1.3",
+    "nodemon": "^2.0.18"
+  }
+}
